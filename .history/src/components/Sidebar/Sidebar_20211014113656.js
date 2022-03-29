@@ -1,0 +1,31 @@
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
+export default function Sidebar() {
+  return (
+    <Router>
+    <div className="sidebar">
+      <div className="sidebarWrapper">
+        <div className="sidebarMenu">
+          <ul className="sidebarList">
+            <Route to="/" className="link">
+            <li className="sidebarListItem active">
+              Dashboard
+            </li>
+            </Route>
+            <Route to="/tab/Scheduler" className="link">
+              <li className="sidebarListItem">
+              Scheduler
+            </li>
+            </Route>
+            <Route to="/tab/Patients" className="link">
+            <li className="sidebarListItem">
+              Patients
+            </li>
+            </Route>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </Router>  
+  );
+}

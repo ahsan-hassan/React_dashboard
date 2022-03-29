@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    padding: 0px ;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.sidebar {
+    height: 100%;
+    width: 300px;
+    background-color: aqua;
+    position: fixed;
+}
+.profileinfo {
+    display: flex;
+    margin-top: 20px;
+}
+
+.drinfo {
+    padding: 5px;
+}
+
+.profilepic {
+    width: 60px;
+    height: 60px;
+}
+
+.availability{
+    margin-left: 50px;
+    border: 1px solid rgb(194 194 244);
+    background-color:rgb(194 194 244) ;
+    border-radius: 15px;
+    line-height: 30%;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.earning {
+    border : 1px solid silver;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.earning p {
+    font-size: 15px;
+}
+
+.reqcol {
+    display: flex;
+    justify-content: space-around;
+}
+
+.requests {
+    border: 1px solid silver;
+    border-radius: 10px;
+    line-height: 15px;
+    padding: 5px;
+}
+
+.requests h5 {
+    font-size: 12px;
+}
+
+.requests p {
+    font-size: 12px;
+}

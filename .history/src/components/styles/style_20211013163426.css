@@ -1,0 +1,143 @@
+body {
+    margin: 0px;
+    padding: 0px ;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.sidebar {
+    height: 100%;
+    width: 300px;
+    background-color: aqua;
+    position: fixed;
+}
+.profileinfo {
+    display: flex;
+    margin-top: 10px;
+}
+
+.drinfo {
+    padding: 5px;
+}
+
+.profilepic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.availability{
+    margin-left: 50px;
+    border: 1px solid rgb(194 194 244);
+    background-color:rgb(194 194 244) ;
+    border-radius: 15px;
+    height: 55px;
+    line-height: 5%;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.earning {
+    border : 1px solid silver;
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 30px;
+    height: 215px;
+}
+
+.earning p {
+    font-size: 15px;
+}
+
+.reqcol {
+    border: 1px solid silver;
+    border-radius: 10px;
+    line-height: 15px;
+    padding: 10px;
+    height: 215px;
+}
+
+.reqs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.requests {
+    border: 1px solid silver;
+    border-radius: 10px;
+    line-height: 15px;
+    padding: 5px;
+    margin: 5px;
+    height: 65px;
+}
+
+.requests h5 {
+    font-size: 12px;
+}
+
+.requests p {
+    font-size: 12px;
+}
+
+.react-calendar {
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.react-calendar__navigation{
+    margin-bottom: 0px !important; 
+}
+.summary {
+    border: 1px solid silver;
+    border-radius: 10px;
+    line-height: 15px;
+    padding: 15px;
+    height: 215px;
+    line-height: 5px;
+}
+
+.appointments {
+    border: 1px solid silver;
+    border-radius: 10px;
+    line-height: 15px;
+    padding: 15px;
+    height: 215px;
+    line-height: 5px;
+    margin-top: 15px;
+  }
+  
+  .appointmentTitle {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .appointmentTable{
+    width: 100%;
+    border-spacing: 20px;
+    margin-top: 20px;
+  }
+  
+  .appointmentTh{
+    text-align: left;
+  }
+  
+  .appointmentimg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+  .appointmentprofile{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    margin-top: 15px;
+  }
+  .appointmentDate,.appointmentAmount{
+    font-weight: 300;
+  }
+  
+  

@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    padding: 0px ;
+    font-family: 'Poppins', sans-serif;
+}
+
+.profileinfo {
+    display: flex;
+}
+
+.drinfo {
+    display: flex;
+    line-height: 30%;
+}
+.profilepic {
+    width: 60px;
+    height: 60px;
+}
+
+.availability{
+    border: 1px solid rgb(112, 112, 238);
+    background-color:rgb(112, 112, 238) ;
+    border-radius: 25px;
+    line-height: 30%;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.earning {
+    border : 1px solid silver;
+}
